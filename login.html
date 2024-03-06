@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вхід до сайту - XenoLearn</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .form-control {
+      border-color: #28a745;
+    }
+    .btn {
+      background-color: #28a745;
+      border-color: #28a745;
+    }
+    .btn:hover {
+      background-color: #218838;
+      border-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-success sticky-top">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+          <img src="img/logo.png" alt="XenoLearn">
+          XenoLearn
+        </a>
+        <div class="mx-auto">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Головна сторінка</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Профіль</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Про нас</a>
+            </li>
+          </ul>
+        </div>
+          <ul class="navbar-nav">
+            <li class="nav-item-sgn">
+              <a href="#" class="nav-link text-white">Увійти</a>
+            </li>
+            <li class="nav-item-sgn">
+              <a href="#" class="nav-link text-white">Зареєструватись</a>
+            </li>
+          </ul>
+        </div>
+  </nav>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header bg-success text-white">Вхід до сайту</div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Введіть ваш email">
+              </div>
+              <div class="form-group">
+                <label for="password">Пароль</label>
+                <input type="password" class="form-control" id="password" placeholder="Введіть ваш пароль">
+              </div>
+              <button type="submit" class="btn btn-block text-white">Увійти</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    &copy; 2024 XenoLearn. Усі права захищено. <a href="#">XenoLearn.kpi</a>
+  </div>
+</body>
+</html>
