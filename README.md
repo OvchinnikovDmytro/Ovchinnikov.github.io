@@ -1,2 +1,4 @@
-# username.github.io
-web
+Овчінніков Дмитро Станіславович КВ-11
+Розробка статичного дизайну web додатку
+Загальне завдання: розробити статичні Web-сторінки додатку та перевірити коректне їх відображення на екранах різного розміру.
+https://docs.google.com/document/d/1iEJ3VBK63Da-52lk_Cpn1IgWMLsvso_WJ_yvuiAp56E/edit?usp=sharing
