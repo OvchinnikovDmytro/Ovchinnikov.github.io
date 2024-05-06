@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робоча сторінка додатка - XenoLearn</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="controller.js"></script>
+    <script src="model.js"></script>
+<style>
+          .container {
+                max-width: 600px;
+                margin: 0 auto;
+                text-align: center; 
+            }
+        </style>
+</style>
+
+<nav class="navbar navbar-expand-md navbar-light bg-success sticky-top">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+          <img src="img/logo.png" alt="XenoLearn">
+          XenoLearn
+        </a>
+        <div class="mx-auto">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-white">Головна сторінка</a>
+            </li>
+            <li class="nav-item">
+              <a href="profile.html" class="nav-link text-white">Профіль</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link text-white">Про нас</a>
+            </li>
+          </ul>
+        </div>
+          <ul class="navbar-nav">
+            <li class="nav-item-sgn">
+              <a href="login.html" class="nav-link text-white">Увійти</a>
+            </li>
+            <li class="nav-item-sgn">
+              <a href="registration.html" class="nav-link text-white">Зареєструватись</a>
+            </li>
+          </ul>
+        </div>
+  </nav>
+</head>
+<body>
+
+<div class="container">
+    <h1>Present Simple Test</h1>
+    
+    <form id="quizForm">
+      <div class="question">
+        <p>1. What will you do tomorrow?</p>
+        <input type="radio" name="q1" value="a"> a) I'm going to sleep. <br>
+        <input type="radio" name="q1" value="b"> b) I'll sleep. <br>
+        <input type="radio" name="q1" value="c"> c) I sleep. <br>
+    </div>
+    
+    <div class="question">
+        <p>2. Where will they travel next summer?</p>
+        <input type="radio" name="q2" value="a"> a) They're going to travel to Italy. <br>
+        <input type="radio" name="q2" value="b"> b) They'll travel to Italy. <br>
+        <input type="radio" name="q2" value="c"> c) They travel to Italy. <br>
+    </div>
+    
+    <div class="question">
+        <p>3. Who will win the game?</p>
+        <input type="radio" name="q3" value="a"> a) They win the game. <br>
+        <input type="radio" name="q3" value="b"> b) They'll win the game. <br>
+        <input type="radio" name="q3" value="c"> c) They're going to win the game. <br>
+    </div>
+    
+    <div class="question">
+        <p>4. What will she buy at the store?</p>
+        <input type="radio" name="q4" value="a"> a) She's going to buy groceries. <br>
+        <input type="radio" name="q4" value="b"> b) She'll buy groceries. <br>
+        <input type="radio" name="q4" value="c"> c) She buys groceries. <br>
+    </div>
+    
+    <div class="question">
+        <p>5. How will you celebrate your birthday?</p>
+        <input type="radio" name="q5" value="a"> a) I celebrate with my friends. <br>
+        <input type="radio" name="q5" value="b"> b) I'm going to celebrate with my friends. <br>
+        <input type="radio" name="q5" value="c"> c) I'll celebrate with my friends. <br>
+    </div>
+        
+        <button type="button" onclick="checkAnswers4()">Подати відповіді</button>
+    </form>
+    
+    <div id="result" style="margin-top: 20px; font-style: oblique; font-size: 20px;"></div>
+</div>
+
+
+</body>
+</html>

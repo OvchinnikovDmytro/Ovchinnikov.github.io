@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Профіль користувача - XenoLearn</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="controller.js"></script>
+  <script src="model.js"></script>
+  <script src="view.js"></script>
   <style>
     .card {
       border: 2px solid #28a745;
@@ -38,7 +41,7 @@
     
   </style>
 </head>
-<body>
+<body onload="show();">
   <nav class="navbar navbar-expand-md navbar-light bg-success sticky-top">
     <div class="container-fluid">
         <a href="#" class="navbar-brand">
@@ -86,19 +89,19 @@
                 <tbody>
                   <tr>
                     <th scope="row">Ім'я</th>
-                    <td>Mr Fresh</td>
+                    <td id="name"></td>
                   </tr>
                   <tr>
                     <th scope="row">Email</th>
-                    <td>example@example.com</td>
+                    <td id="email"></td>
                   </tr>
                   <tr>
                     <th scope="row">Стать</th>
-                    <td>Чоловік</td>
+                    <td id="gender"></td>
                   </tr>
                   <tr>
                     <th scope="row">Дата народження</th>
-                    <td>01.01.1991</td>
+                    <td id="dob"></td>
                   </tr>
                 </tbody>
               </table>

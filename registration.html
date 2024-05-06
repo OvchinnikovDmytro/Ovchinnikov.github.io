@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Реєстрація користувача - XenoLearn</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="controller.js"></script>
+  <script src="model.js"></script>
   <style>
     .form-control {
       border-color: #28a745;
@@ -65,7 +67,7 @@
         <div class="card">
           <div class="card-header bg-success text-white">Реєстрація користувача</div>
           <div class="card-body">
-            <form>
+            <form onsubmit="registration();">
               <div class="form-group">
                 <label for="name">Ім'я</label>
                 <input type="text" class="form-control" id="name" placeholder="Введіть ваше ім'я">
