@@ -1,4 +1,24 @@
-Овчінніков Дмитро Станіславович КВ-11
-Розробка статичного дизайну web додатку
-Загальне завдання: розробити статичні Web-сторінки додатку та перевірити коректне їх відображення на екранах різного розміру.
-https://docs.google.com/document/d/1iEJ3VBK63Da-52lk_Cpn1IgWMLsvso_WJ_yvuiAp56E/edit?usp=sharing
+# lab-3
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
