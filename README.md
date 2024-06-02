@@ -1,3 +1,8 @@
+Овчінніков Дмитро Станіславович КВ-11
+адаптувати програмний код ЛР№2 до вимог фреймворка VueJS та забезпечити завантаження необхідних даних з Web-сервера 
+
+https://docs.google.com/document/d/1set44KbHl4YPZnIeZGpO7SPXQwH-htdC2vohjOYEWVs/edit?usp=sharing
+
 # lab-3
 
 ## Project setup
